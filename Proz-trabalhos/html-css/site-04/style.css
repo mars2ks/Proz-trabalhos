@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+body {
+    font-family: "Overpass", sans-serif;
+    background-color: #181f2a;
+    color: #fff;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.caixa {
+    width: 500px;
+    border-radius: 15px;
+    background-color: #2b3747;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
+    overflow: hidden; 
+}
+
+img {
+    border-radius: 100%; 
+    background-color: #181f2a;
+    width: 50px; 
+    height: 50px; 
+    margin-bottom: 20px; 
+    display: flex;
+    padding: 10px;
+
+}
+
+#avaliar {
+    text-decoration: none;
+    display: block;
+    background: #f47c26;
+    color: #181f2a;
+    padding: 15px; 
+    border-radius: 25px;
+    font-weight: 600;
+    box-shadow: 0 0 1px #e7d9d9;
+    margin-top: 30px;
+}
+
+.opc {
+    display: flex;
+    justify-content: center;
+    gap: 10px; 
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.num {
+    background-color: #181f2a;
+    border-radius: 100%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color: #fff;
+    text-decoration: none;
+}
+
+p {
+    text-align: left; 
+    color: #c2c5d0;
+}
+h2 {
+    color: #fff;
+    text-align: left;
+    margin: 10px 0;
+    padding: 5px;
+}
+
